@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  widows: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1f3f6;
+}
+.navbar{
+  padding: 1rem;
+  font-weight: 500;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0, .1);
+}
+.navbar-brand{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.navbar-brand:hover{
+  color: #4981b3 !important;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1rem !important;
+  color: #5b5555 !important;
+}
+.nav-link.active,
+.nav-link:hover{
+  color: #4981b3 !important;
+}
+.shopify-policy__container {
+    max-width: 560px;
+    max-width: 75ch;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.shopify-policy__title{
+	text-align: center;
+}
+.shopify_refund_container{
+	max-width: 560px;
+    max-width: 75ch;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.shopify_refund_title{
+	text-align: center;
+}
+.shopify_terms_container{
+	max-width: 560px;
+    max-width: 75ch;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.shopify_terms_title{
+	text-align: center;
+}
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%; 
+  margin-bottom: 1rem;
+  margin-top: .8rem;
+}
+footer a{
+  color: #d5d5d5
+}
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%; 
+  margin-bottom: 1rem;
+  margin-top: .8rem;
+}
